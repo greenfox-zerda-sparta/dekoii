@@ -1,0 +1,45 @@
+/* this is a comment*/
+body {
+  margin: 0;
+  color: #333333;/* can be hexa and cmyk, rgb and other colors, or u can make it rgba which ads alpha meaning transparency*/
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  width: 100%; /* resize to screen*/
+}
+
+article {
+  max-width: 668px;
+  margin-left: auto;
+  margin-right: auto;
+  /* or margin: 0 auto;*/
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+h2 {
+  color: #666666;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 27px
+}
+
+p {
+  font-size: 21px;
+  line-height: 33px;
+}
+
+a {
+  color: #333333;
+}
