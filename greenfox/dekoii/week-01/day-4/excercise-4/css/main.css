@@ -1,0 +1,13 @@
+body{
+  font-family: 'times-new-roman';
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+h1,
+h2{
+  color: green
+}
+span.big-red-L{
+  color: red
+}

@@ -1,0 +1,31 @@
+body{
+  font-family: 'times-new-roman';
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 10px;
+  color: blue
+}
+
+h1{
+  color: blue
+}
+h2{
+  color: orange
+}
+
+ul{
+  list-style: square
+}
+p,
+ul.short-list1{
+  color: black;
+  list-style: disc;
+}
+
+ul.short-list2{
+  color: black;
+  list-style: decimal;
+}
+li.red{
+  color: red
+}
