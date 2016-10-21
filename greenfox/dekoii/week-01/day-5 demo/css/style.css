@@ -1,0 +1,47 @@
+body{
+	font-family: 'MedievalSharp', cursive; <!- is not readable enough->
+	margin: 0px;
+}
+	
+span{
+	font-size: 120%;
+}	
+article{
+	max-width: 450px;
+	display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.textwrap{
+	float: right;
+	margin: 10px;
+}
+
+.navigation{
+	font-size: 10px;
+}
+
+span{
+	font-size: 150%;
+	color: red;
+}
+
+
+.imgtext{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: yellow;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ezekiel:hover .imgtext{
+  visibility: visible;
+  opacity: 1;
+}
