@@ -9,7 +9,7 @@ int main() {
 	int f = 16;
 	// please square root f's value
 	
-	int a=std::sqrt(f);
+	int a=sqrt(f);
 	
 	cout << "square root is " << a << endl;
 	
