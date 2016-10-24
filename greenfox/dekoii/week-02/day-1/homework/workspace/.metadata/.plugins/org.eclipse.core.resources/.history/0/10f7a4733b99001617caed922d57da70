@@ -1,0 +1,31 @@
+/*
+ * passport.cpp
+ *
+ *  Created on: Oct 23, 2016
+ *      Author: dekoii
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	int age=26;
+	float hight=175.5;
+	char sex='m';
+	bool isit=true;
+
+	cout << "passport data printed out by cout" << endl;
+	cout << "age" << age << endl;
+	cout << "height" << hight << "cm" << endl;
+	cout << "sex m/f" << endl;
+	cout << sex << endl;
+	cout << "security ckecked if output is 1" <<endl;
+	cout << isit << endl;
+	return 0;
+
+}
+
+

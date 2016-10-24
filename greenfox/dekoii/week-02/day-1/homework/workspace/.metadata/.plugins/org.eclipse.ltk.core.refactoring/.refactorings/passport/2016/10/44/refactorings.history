@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;passport/src/passport&apos; to &apos;passport.cpp&apos;" description="Rename resource &apos;passport&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/passport" name="passport.cpp" stamp="1477235756156" updateReferences="true"/>
+</session>

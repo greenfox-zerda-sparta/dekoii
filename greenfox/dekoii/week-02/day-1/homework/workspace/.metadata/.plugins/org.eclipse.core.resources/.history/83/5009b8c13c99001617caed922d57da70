@@ -1,0 +1,41 @@
+/*
+ * passport.cpp
+ *
+ *  Created on: Oct 23, 2016
+ *      Author: dekoii
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	 int age;
+	  float hight;
+	  char sex;
+	  bool IDnumber=true;
+
+  cout << "Enter ur passport data" << endl;
+  cout << "Age?";
+  cin >> age;
+  cout << "Height?" << endl;
+  cin >> hight;
+  cout << "Sex?" << endl;
+  cin >> sex;
+  cout << "ID number?" << endl;
+  cin >> IDnumber;
+
+
+  cout << "passport data printed out by cout" << endl;
+  cout << "age" << age << endl;
+  cout << "height" << hight << "cm" << endl;
+  cout << "sex m/f" << endl;
+  cout << sex << endl;
+  cout << "ID number checked if 1" <<endl;
+  cout << IDnumber << endl;
+  return 0;
+
+}
+
+
