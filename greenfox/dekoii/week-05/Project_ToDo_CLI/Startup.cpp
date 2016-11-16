@@ -30,4 +30,5 @@ void errorHandlingOfCommands(int argc, char** argv) {
     cout << endl;
     displayUserInfo(argc, argv);
   }
+
 }
