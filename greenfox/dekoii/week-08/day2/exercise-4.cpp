@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 #include <map>
+// write a function that takes a string and returns a map
+// the map should have the letters of the string as keys and 
+// it should have integers as values that represents how many times the
+// letter appeared int the string
+
 
 using namespace std;
 
@@ -14,19 +19,9 @@ map<char, int> mapFiller (string& str) {
       mymap.insert(pair<char, int>(*it, x));
     }
   }
- // if ( mymap.count(it)) {
- //     it->second += 1;;
- // }
   return mymap;
 }
 
-
-
-
-// write a function that takes a string and returns a map
-// the map should have the letters of the string as keys and 
-// it should have integers as values that represents how many times the
-// letter appeared int the string
 
 int main() {
 
