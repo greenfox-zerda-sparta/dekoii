@@ -1,0 +1,114 @@
+echo "# stash-and-branch" >> README.md
+git init
+git add README.md
+commit -m "first commit"
+git commit -m "first commit"
+git -diff
+git --diff
+git remote add origin 
+git remote add origin https://github.com/dekoii/stash-and-branch.git
+git push -u origin master
+git commit
+mkdir projectStart
+git status
+ls
+cd projectStart/
+vim main.cpp
+git status
+git commit
+git add .
+git commit
+git status
+git push origin master
+git branch newClass
+git checkout newClass
+ls
+vim main.cpp 
+git add .
+git status
+git commit
+git push -u origin newClass 
+git status
+vim class.cpp
+git status
+vim class.hpp
+vim main.cpp 
+vim class.hpp
+vim class.cpp
+git status
+git add .
+git status
+git commit
+git status
+git push -u origin newClass 
+git checkout master 
+ls
+vim main.cpp 
+git status
+git commit
+git add .
+git commit
+git push -u origin master 
+git status 
+git merge newClass 
+git status
+ls
+vim main.cpp 
+vim class.cpp
+vim class.hpp
+git push -u origin master 
+git checkout newClass 
+ls
+vim main.cpp 
+git branch otherstuff
+git checkout otherstuff 
+vim alternativemain.cpp 
+git push -u origin otherstuff 
+git status
+git add .
+git commit
+git push -u origin otherstuff 
+vim alternativemain.cpp 
+git stash save "WIP for alternative main"
+git status
+ls
+vim alternativemain.cpp 
+cd Desktop/stashNbranch/
+ls -a
+git init
+git status
+git stash -list
+git stash list
+ls
+cd projectStart/
+ls
+git checkout master 
+ls
+cd Desktop/stashNbranch/
+ls
+ls -a
+git init
+git status
+ls
+cd projectStart/
+ls
+git checkout newClass 
+ls
+git checkout otherstuff 
+ls
+vim alternativemain.cpp 
+git stash list
+git status
+git checkout master
+git status
+ls
+git status
+ls
+git checkout newClass 
+ls
+git checkout otherstuff 
+ls
+vim alternativemain.cpp 
+git stash list
+git stash pop
+vim alternativemain.cpp 
